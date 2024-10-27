@@ -1,0 +1,33 @@
+package Clase3;
+
+import java.util.Scanner;
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+	}
+	
+	public static int leerInt (){
+        int numero;
+        Scanner sc = new Scanner(System.in);
+        mostrar("ingrese numero");
+        numero = sc.nextInt();
+        return numero;
+    }
+
+    public static double leerDouble (){
+        double numero;
+        Scanner sc = new Scanner(System.in);
+        mostrar("ingrese numero");
+        numero = sc.nextDouble();
+        return numero;
+    }
+
+    public static void mostrar (String mensaje){
+        System.out.println(mensaje);
+    }
+
+}

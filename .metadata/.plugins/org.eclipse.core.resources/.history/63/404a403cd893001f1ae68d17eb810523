@@ -1,0 +1,40 @@
+package Clase1;
+
+import java.util.Scanner;
+
+public class Ejer5 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static void mostrar (String mensaje){
+        System.out.println(mensaje);
+    }
+	
+	public static int leerInt (){
+	        int Gigabytes;
+	        Scanner sc = new Scanner(System.in);
+	        mostrar("ingrese la capacidad del disco en Gigabytes");
+	        Gigabytes = sc.nextInt();
+	        return Gigabytes;
+	    }
+	
+	public static int Kilobyte() {
+		
+		
+	}
+	
+	public static int megabyte() {
+		
+		
+	}
+
+	public static int Byte() {
+	
+	
+	}
+	
+	
+}

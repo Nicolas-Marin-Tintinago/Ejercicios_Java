@@ -1,0 +1,35 @@
+package Metodos;
+
+public class Metodos {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+//	
+//	  mostrar("Ingrese 1 para sumar \n" +
+//              "ingrsese 2 para restar \n" +
+//              "ingrese 3 para multiplicar \n" +
+//              "ingrese 4 para dividir");
+	
+    public static void mostrar (String mensaje){
+        System.out.println(mensaje);
+    }
+
+    
+    public static int leerInt (){
+        int numero;
+        Scanner sc = new Scanner(System.in);
+        mostrar("ingrese numero");
+        numero = sc.nextInt();
+        return numero;
+    }
+
+    public static double leerDouble (){
+        double numero;
+        Scanner sc = new Scanner(System.in);
+        mostrar("ingrese numero");
+        numero = sc.nextDouble();
+        return numero;
+    }
+}

@@ -1,0 +1,31 @@
+package Clase1;
+
+import java.util.Scanner;
+
+public class Ejer3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+	
+
+	
+	}
+    public static int leerInt (){
+        int numero;
+        Scanner sc = new Scanner(System.in);
+        mostrar("ingrese la cantidad de litros por minuto que da su manguera");
+        numero = sc.nextInt();
+        return numero;
+    }
+    
+    public static void mostrar (String mensaje){
+        System.out.println(mensaje);
+    }
+
+	
+	
+	
+
+}

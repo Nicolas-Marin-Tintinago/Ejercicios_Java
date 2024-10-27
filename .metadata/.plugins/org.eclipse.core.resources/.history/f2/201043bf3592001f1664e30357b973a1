@@ -1,0 +1,40 @@
+package Clase1;
+
+import java.util.Scanner;
+
+public class Ejer3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+
+	
+
+	
+	}
+	public static void Guardar() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		System.out.println("ingrese las horas que se demora en llenarse");
+		
+		
+	}
+	
+	
+	
+	
+	
+	public static double calcularTiempoLlenado(double flujoLitrosMin) {
+        
+	       
+		double capacidadLitros = 50000;  // Capacidad del tanque en litros
+		        double tiempoHoras = capacidadLitros / (flujoLitrosMin * 60);  // Convertimos a horas
+		        return tiempoHoras;
+		    }
+	
+	
+	
+
+}

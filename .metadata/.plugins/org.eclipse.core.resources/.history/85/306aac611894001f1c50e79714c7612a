@@ -1,0 +1,57 @@
+package Clase1;
+
+import java.util.Scanner;
+
+public class Ejer6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+
+		int Herencia=leerInt("ingrese el valor de la herencia en dolares");
+		
+		
+	}
+	
+    public static int leerInt (String mensaje){
+        int Numero;
+        Scanner sc = new Scanner(System.in);
+        mostrar(mensaje);
+        Numero = sc.nextInt();
+        
+        int Hijo1= mostrar("Ingrese la edad del primer hijo");
+        Hijo1 = sc.nextInt();
+        
+        int Hijo2=mostrar("Ingrese la edad del segundo hijo");
+        Hijo2 = sc.nextInt();
+        
+        int Hijo3=mostrar("Ingrese la edad del tercer hijo");
+        Hijo3 = sc.nextInt();
+        return Numero;
+    }
+    
+	public static void mostrar (String mensaje){
+        System.out.println(mensaje);
+    }
+	
+	public static float Herencia1(int Herencia) {
+		
+		
+	}
+	public static float Herencia2(int Herencia) {
+		
+		
+	}
+	public static float Herencia3(int Herencia) {
+		
+	
+		
+	}
+
+	public static int Herencia() {
+		int Hijo1=leerInt("Ingrese la edad del primer hijo");
+		int Hijo2=leerInt("Ingrese la edad del segundo hijo");
+		int Hijo3=leerInt("Ingrese la edad del tercer hijo");
+	}
+
+}
